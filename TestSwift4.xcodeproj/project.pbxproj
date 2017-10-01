@@ -12,6 +12,7 @@
 		417F39C91F7FC3B2001BC95E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417F39C71F7FC3B2001BC95E /* Main.storyboard */; };
 		417F39CB1F7FC3B2001BC95E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417F39CA1F7FC3B2001BC95E /* Assets.xcassets */; };
 		417F39CE1F7FC3B2001BC95E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417F39CC1F7FC3B2001BC95E /* LaunchScreen.storyboard */; };
+		41AA43861F80C65E0056722C /* SegundaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA43851F80C65E0056722C /* SegundaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		417F39CA1F7FC3B2001BC95E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		417F39CD1F7FC3B2001BC95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		417F39CF1F7FC3B2001BC95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41AA43851F80C65E0056722C /* SegundaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				417F39C31F7FC3B2001BC95E /* AppDelegate.swift */,
 				417F39C51F7FC3B2001BC95E /* ViewController.swift */,
+				41AA43851F80C65E0056722C /* SegundaViewController.swift */,
 				417F39C71F7FC3B2001BC95E /* Main.storyboard */,
 				417F39CA1F7FC3B2001BC95E /* Assets.xcassets */,
 				417F39CC1F7FC3B2001BC95E /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				417F39C61F7FC3B2001BC95E /* ViewController.swift in Sources */,
+				41AA43861F80C65E0056722C /* SegundaViewController.swift in Sources */,
 				417F39C41F7FC3B2001BC95E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +285,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.icologic.TestSwift4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.icologic.TestSwift4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
