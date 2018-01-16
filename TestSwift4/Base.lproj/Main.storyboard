@@ -101,7 +101,7 @@
             <objects>
                 <viewController id="1bN-gP-WjT" customClass="SegundaViewController" customModule="TestSwift4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zKE-8A-klG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1040"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="R9F-5j-pbT">
@@ -555,7 +555,7 @@
                         <viewLayoutGuide key="safeArea" id="Yb8-vS-DIB"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="1040"/>
+                    <size key="freeformSize" width="375" height="500"/>
                     <connections>
                         <outlet property="viewCinco" destination="scv-mU-G8r" id="hHM-VS-lY1"/>
                         <outlet property="viewCuatro" destination="Bv8-dD-PHY" id="i5j-Rq-TeM"/>
